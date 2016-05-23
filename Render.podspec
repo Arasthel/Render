@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Render"
-  s.version          = "0.1.0-alpha"
+  s.version          = "0.3.1"
   s.summary          = "Swift and UIKit a la React."
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Render/Classes/**/*'
+  s.source_files = 'Render/**/*'
 
   # s.resource_bundles = {
   #   'Render' => ['Render/Assets/*.png']
